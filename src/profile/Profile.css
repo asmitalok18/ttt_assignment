@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh; /* Adjusted to use viewport height */
+}
+
+.profile-container {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  margin-left: 180px;
+  margin-top: -30px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 80px;
+  position: relative;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.stats {
+  display: flex;
+  justify-content:baseline;
+  
+}
+.parent-id {
+  height: 60vh; /* Adjusted to use viewport height */
+  width: 100%;
+  background-color: transparent; /* Set background color to transparent */
+  overflow: hidden;
+  position: relative;
+}
+
+
+.background-image {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%; /* Updated to cover both width and height */
+  background-image: url('https://img5.goodfon.com/wallpaper/nbig/a/91/avstraliia-sidnei-gorod-reka-parramatta-river-zdaniia-most.jpg');
+}
+
+.stats-button {
+  background-color: white-smoke;
+  margin: 5px;
+  color: gray;
+  padding: 10px;
+  width: 100px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5px;
+  text-align: center;
+}
+.btn-text{
+  margin: 10px;
+  margin-left: 15px;
+}
+.bio-text{
+  margin-top: 125px;
+  margin-left: -400px;
+  font-size: large;
+  
+}
+.insta{
+  margin-top: 20px;
+  margin-left: -400px;
+  font-size: medium;
+}
+.post-data{
+  margin-top: 50px;
+  margin-left: -455px;
+  font-size: 40px;
+  color: rgb(29, 101, 173);
+}
+.vl {
+  border-left: 1px solid gray;
+  height: 70px;
+  margin-left: -380px;
+  margin-top: -50px;
+}
+.hr {
+  border-bottom: 1px solid gray;
+  width: 220px;
+  margin-top: -70px;
+  margin-left: -600px;
+}
+.hr1 {
+  border-bottom: 1px solid gray;
+  width: 1320px;
+  margin-top: 69px;
+  margin-left: -380px;
+}
+
+.heading{
+  margin-left: -560px;
+}
+.heading ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.heading ul li:before {
+  content: '-';
+  margin-right: 5px;
+}
